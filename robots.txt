@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Point to sitemap
-Sitemap: https://ivan-fr.github.io/binancebonus/sitemap.xml
+Sitemap: https://ivan-fr.github.io/bitgetbonus/sitemap.xml
 
 # Allow all bots to index the site
 User-agent: Googlebot
