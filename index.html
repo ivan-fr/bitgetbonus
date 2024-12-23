@@ -41,7 +41,9 @@
     <!-- Existing style and script links -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
@@ -1026,40 +1028,43 @@
     <main>
         <section class="hero">
             <div class="floating-elements">
-                <div class="floating-icon" style="top: 20%; left: 10%;">₿</div>
-                <div class="floating-icon" style="top: 60%; left: 80%;">Ξ</div>
-                <div class="floating-icon" style="top: 80%; left: 30%;">$</div>
+                <div class="floating-icon" style="top: 20%; left: 10%; animation-duration: 15s;">₿</div>
+                <div class="floating-icon" style="top: 60%; left: 80%; animation-duration: 20s;">Ξ</div>
+                <div class="floating-icon" style="top: 80%; left: 30%; animation-duration: 25s;">$</div>
+                <div class="floating-icon" style="top: 30%; left: 70%; animation-duration: 18s;">₮</div>
             </div>
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Trade Like a Pro on Bitget</h1>
-                    <p class="subtitle">The Preferred Trading Platform for Global Traders</p>
+                    <h1>Maximize Your Crypto Trading</h1>
+                    <p class="subtitle">Join Bitget Today and Get Up To</p>
                     <div class="quick-benefits">
-                        <div class="benefit-tag">
+                        <div class="benefit-tag" data-aos="fade-up" data-aos-delay="100">
                             <i class="fas fa-gift"></i>
                             <span>5100 USDT Welcome Bonus</span>
                         </div>
-                        <div class="benefit-tag">
+                        <div class="benefit-tag" data-aos="fade-up" data-aos-delay="200">
                             <i class="fas fa-percent"></i>
-                            <span>-20% on Trading Fees</span>
+                            <span>20% Lifetime Fee Discount</span>
                         </div>
-                        <div class="benefit-tag">
+                        <div class="benefit-tag" data-aos="fade-up" data-aos-delay="300">
                             <i class="fas fa-coins"></i>
-                            <span>Spot & Futures Trading Bonus</span>
+                            <span>Exclusive Trading Rewards</span>
                         </div>
                     </div>
                     <div class="cta-section">
                         <a href="https://share.bitget.com/u/GZ8VQSCQ" 
                            class="cta-button" 
                            role="button" 
-                           aria-label="Sign up on Bitget">
-                            Sign Up Now
-                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                           aria-label="Sign up on Bitget"
+                           data-aos="fade-up" 
+                           data-aos-delay="400">
+                            Start Trading Now
+                            <i class="fas fa-arrow-right"></i>
                         </a>
-                        <div class="referral-code" onclick="copyRefCode()">
+                        <div class="referral-code" onclick="copyRefCode()" data-aos="fade-up" data-aos-delay="500">
                             <span id="refCode">5UBQWG33</span>
                             <button class="copy-button" aria-label="Copy referral code">
-                                <i class="fas fa-copy" aria-hidden="true"></i>
+                                <i class="fas fa-copy"></i>
                             </button>
                         </div>
                     </div>
@@ -1072,79 +1077,138 @@
             </div>
         </section>
 
-        <!-- Continue with the rest of the sections, adapting the content for Bitget -->
         <section class="benefits">
-            <h2>Exclusive Referral Benefits</h2>
+            <h2 data-aos="fade-up">Why Choose Bitget?</h2>
             <div class="benefits-grid">
-                <div class="benefit-card">
-                    <i class="fas fa-gift"></i>
-                    <h3>Welcome Bonus</h3>
-                    <p>Receive up to 5100 USDT by completing tasks</p>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure Trading</h3>
+                    <p>Industry-leading security measures to protect your assets</p>
                 </div>
-                <div class="benefit-card">
-                    <i class="fas fa-percent"></i>
-                    <h3>Fee Discount</h3>
-                    <p>Enjoy 20% discount on your trading fees</p>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Lightning Fast</h3>
+                    <p>Execute trades instantly with our high-performance platform</p>
                 </div>
-                <div class="benefit-card">
-                    <i class="fas fa-coins"></i>
-                    <h3>Spot Trading Bonus</h3>
-                    <p>Earn rewards on your spot trading activities</p>
-                </div>
-                <div class="benefit-card">
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
                     <i class="fas fa-chart-line"></i>
-                    <h3>Futures Trading Bonus</h3>
-                    <p>Get additional rewards on futures trading</p>
+                    <h3>Advanced Tools</h3>
+                    <p>Professional trading tools and real-time market data</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support in multiple languages</p>
                 </div>
             </div>
         </section>
 
-        <!-- Add this section after the benefits section -->
         <section class="referral-steps">
-            <h3>How to Get Your 5100 USDT Bonus</h3>
+            <h3 data-aos="fade-up">Get Started in Minutes</h3>
             <div class="steps-grid">
-                <div class="step">
+                <div class="step" data-aos="fade-up" data-aos-delay="100">
                     <div class="step-number">1</div>
-                    <p>Sign up with our referral code</p>
+                    <p>Sign up with our exclusive referral code</p>
                 </div>
-                <div class="step">
+                <div class="step" data-aos="fade-up" data-aos-delay="200">
                     <div class="step-number">2</div>
-                    <p>Complete KYC verification</p>
+                    <p>Complete quick verification</p>
                 </div>
-                <div class="step">
+                <div class="step" data-aos="fade-up" data-aos-delay="300">
                     <div class="step-number">3</div>
-                    <p>Deposit at least 200 USDT</p>
+                    <p>Make your first deposit</p>
                 </div>
-                <div class="step">
+                <div class="step" data-aos="fade-up" data-aos-delay="400">
                     <div class="step-number">4</div>
-                    <p>Trade to unlock up to 5100 USDT</p>
+                    <p>Start trading and earning rewards</p>
                 </div>
             </div>
         </section>
-
-        <!-- Rest of the sections... -->
     </main>
 
     <footer>
         <div class="footer-content">
-            <p>Join Bitget today and start your crypto journey</p>
+            <p>Ready to start your crypto journey?</p>
             <div class="cta-section">
                 <a href="https://share.bitget.com/u/GZ8VQSCQ" 
                    class="cta-button" 
                    role="button" 
                    aria-label="Sign up on Bitget">
-                    Sign Up
-                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    Join Bitget Now
+                    <i class="fas fa-arrow-right"></i>
                 </a>
                 <div class="referral-code" onclick="copyRefCode('footer')">
                     <span id="refCodeFooter">5UBQWG33</span>
                     <button class="copy-button" aria-label="Copy referral code">
-                        <i class="fas fa-copy" aria-hidden="true"></i>
+                        <i class="fas fa-copy"></i>
                     </button>
                 </div>
             </div>
         </div>
     </footer>
     <script src="script-bitget.js"></script>
+    <script>
+        // Initialize AOS
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 100
+            });
+        });
+
+        // Copy referral code function
+        function copyRefCode(location = 'header') {
+            const codeElement = location === 'footer' ? document.getElementById('refCodeFooter') : document.getElementById('refCode');
+            const code = codeElement.textContent;
+            
+            navigator.clipboard.writeText(code).then(() => {
+                // Create and show tooltip
+                const tooltip = document.createElement('div');
+                tooltip.className = 'copy-tooltip';
+                tooltip.textContent = 'Copied!';
+                codeElement.parentElement.appendChild(tooltip);
+
+                // Remove tooltip after animation
+                setTimeout(() => {
+                    tooltip.remove();
+                }, 2000);
+            });
+        }
+
+        // Animate floating icons
+        document.addEventListener('DOMContentLoaded', function() {
+            const floatingIcons = document.querySelectorAll('.floating-icon');
+            
+            floatingIcons.forEach(icon => {
+                const randomX = Math.random() * 30 - 15;
+                const randomY = Math.random() * 30 - 15;
+                
+                anime({
+                    targets: icon,
+                    translateX: [
+                        { value: randomX, duration: 2000, delay: 0 },
+                        { value: -randomX, duration: 2000, delay: 0 }
+                    ],
+                    translateY: [
+                        { value: randomY, duration: 2000, delay: 1000 },
+                        { value: -randomY, duration: 2000, delay: 1000 }
+                    ],
+                    scale: [
+                        { value: 1.1, duration: 2000, delay: 0 },
+                        { value: 1, duration: 2000, delay: 0 }
+                    ],
+                    rotate: {
+                        value: '1turn',
+                        duration: 4000,
+                        easing: 'easeInOutSine'
+                    },
+                    loop: true,
+                    direction: 'alternate',
+                    easing: 'easeInOutSine'
+                });
+            });
+        });
+    </script>
 </body>
 </html> 
